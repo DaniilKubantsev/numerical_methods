@@ -83,7 +83,7 @@ def Simpson(func, args=(), bounds=(), n:int=100, inf:int=0, eps:float=10e-06, it
 
     return res
 
-
+# TODO: Модифицировать Trapezoid для работы с несобственными интеграллами
 
 def Trapezoid(func, args=(), bounds=(), n:int=100, inf:int=0, eps:float=1e-05, details:bool=False) -> float:
 
